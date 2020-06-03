@@ -31,9 +31,9 @@ class DockerHost( Host ):
         Host.__init__( self, name, **kwargs )
 
     def cmd( self, *args, **kwargs ):
-        print "cmd sending "+str(args)
+        print("cmd sending "+str(args))
         ret=Host.cmd(self, *args, **kwargs )
-        print ret
+        print(ret)
         return ret
 
     def sendCmd( self, *args, **kwargs ):
