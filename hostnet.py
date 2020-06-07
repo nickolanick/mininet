@@ -152,7 +152,7 @@ class RemoteLink( Link ):
 
 def basicTest():
     remote   = "mininet_host"
-    username = "mininet"
+    username = "ubuntu"
     link     = RemoteLink
     net = Mininet( host=RemoteHost, link=RemoteLink)
     h1 = net.addHost( 'h1')
