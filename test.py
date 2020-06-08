@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 from hostnet import RemoteLink, RemoteNode, RemoteHost
 from mininet.net import Mininet
 import pytest
@@ -27,3 +29,6 @@ def test_link(capsys):
         assert net.ping([h1, h2]) == 0
         print('Done')
     # net.stop()
+
+if __name__=="__main__":
+    test_create_host()

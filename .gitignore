@@ -1,4 +1,5 @@
 mnexec
+venv
 *.pyc
 *~
 *.1
